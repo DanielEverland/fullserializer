@@ -11,6 +11,9 @@
     <PostBuildEvent>copy /y "$(TargetDir)/$(ProjectName).dll" "D:\Dead Air\Assets\Plugins\UMS\FullSerializer.dll"
 copy /y "$(TargetDir)/$(ProjectName).pdb" "D:\Dead Air\Assets\Plugins\UMS\FullSerializer.pdb"</PostBuildEvent>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <DocumentationFile />
+  </PropertyGroup>
   <!-- Source Code -->
   <ItemGroup>
     <Compile Include="@(ExternalCompile)" />
