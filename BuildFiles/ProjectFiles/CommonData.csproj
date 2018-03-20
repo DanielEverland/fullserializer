@@ -4,7 +4,7 @@
   <!-- LOOK HERE! Improtant! -->
   <PropertyGroup>
     <!-- Please modify this folder with the path to your Unity installation -->
-  	<UnityInstallFolder>C:\Program Files\Unity 5.0.0f4\Editor</UnityInstallFolder>
+  	<UnityInstallFolder>C:\Program Files\Unity_2017.3.0f3\Editor</UnityInstallFolder>
 
     <!-- This is the path, relative to this file, of the FullSerializer folder containing the "Source" directory -->
     <FullSerializerFolder>..\..\Assets\FullSerializer</FullSerializerFolder>
